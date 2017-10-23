@@ -1,0 +1,13 @@
+source "https://rubygems.org"
+
+
+
+# Sass, Compass and extensions.
+gem 'sass', '< 3.5'                      # Sass.
+gem 'sass-globbing', '~>1.1.5'           # Import Sass files based on globbing pattern.
+gem 'sassy-maps', '~>0.4.0'              # Map helper functions for Sass 3.3 and up used by Breakpoint (Memo) for improved perf
+gem 'compass', '~>1.0.3'                 # Framework built on Sass.
+gem 'compass-validator', '~>3.0.1'       # So you can `compass validate`.
+gem 'susy', '~>2.2.12'                   # Susy grid framework.
+gem 'breakpoint', '~>2.7.1'              # Manages CSS media queries.
+gem 'css_parser', '~>1.6.0'              # Helps `compass stats` output statistics.
